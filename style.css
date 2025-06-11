@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+}
+
+.container{
+    translate: 0px 60px;
+    display: grid;
+    padding: 18px;
+    border-radius: 18px;
+    color: white;
+    background-image: url(imgs/1000074214.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    width: 300px;
+}
+
+input{
+    background-color: #28212f;
+    border-radius: 10px;
+    margin-block: 5px;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    color: white;
+    background-color: #0d0c0e;
+}
+
+h1{
+    font-family: "MedievalSharp", cursive;
+    justify-content: center;
+}
+
+@media (max-width: 700px){
+    .container{
+        translate: 0px 180px;
+        display: grid;
+        padding: 18px;
+        border-radius: 18px;
+        color: white;
+        background-image: url(imgs/1000074214.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        width: 375px;
+    }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: #433a4d;
+    }
+
+    .f{
+        font-size: 25px;
+    }
+
+    input{
+        background-color: #28212f;
+        border-radius: 10px;
+        margin-block: 5px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    button{
+        border-radius: 5px;
+        color: white;
+        background-color: #0d0c0e;
+        font-size: 25px;
+    }
+    
+    h1{
+        font-family: "MedievalSharp", cursive;
+        justify-content: center;
+    }
+
+
+}
